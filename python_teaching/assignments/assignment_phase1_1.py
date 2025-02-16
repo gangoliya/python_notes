@@ -22,7 +22,7 @@ print(f"\nTotal inventory value: ${total_value: .2f}")
 
 # Step 3: Search functionality with loop
 while True:
-    search_text = input("\nSearch for a product (or type 'exit' to stop): ")
+    search_text = input("\nSearch for a product (or type 'exit' to stop): ").strip()
 
     if search_text.lower() == "exit":
         break
