@@ -8,7 +8,7 @@ num_of_products = int(input("Enter number of products: "))
 print("Enter product details (name, quantity, price): ")
 
 for i in range(num_of_products):
-    name = input("Enter Product Name: ").strip()
+    name = input(f"Enter Product {i+1} Name: ").strip()
     quantity = int(input(f"Enter quantity of {name}: "))
     price = float(input(f"Enter price of {name}: "))
     inventory[name] = {"quantity": quantity, "price": price} 
