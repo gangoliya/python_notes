@@ -5,3 +5,7 @@ print(b)
 
 print(type(a))
 print(type(b))
+
+import random
+
+print(random.randrange(1,10))
