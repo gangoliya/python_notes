@@ -1,4 +1,4 @@
-# Factorial of a number
+# 7. Factorial of a number
 
 def fact(num):
     fct = 0
