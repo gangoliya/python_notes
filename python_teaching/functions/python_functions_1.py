@@ -35,10 +35,10 @@
 def tri_recursion(k):
     if(k>0):
         result = k + tri_recursion(k-1) 
-        # 6 + tri_recursion(5) 
-        # 5 + tri_recusrion(4) 
-        # 4 + tri_recusrion(3)
-        # 3 + tri_recusrion(2)
+        # 6 + tri_recursion(5) # 6 +15 = 21
+        # 5 + tri_recusrion(4) # 5 + 10 = 15
+        # 4 + tri_recusrion(3) # 4 + 6 = 10
+        # 3 + tri_recusrion(2) # 3 + 3 = 6
         # 2 + tri_recusrion(1) # 2 + 1 = 3
         # 1 + tri_recusrion(0) # 1 + 0 = 1
         print(result)
@@ -47,7 +47,7 @@ def tri_recursion(k):
 
     return result
 
-print(tri_recursion(6))
+tri_recursion(6)
 
 
 # factorial using normal loop
