@@ -1,2 +1,1 @@
-Start of log
-Log updated
+Some thing is fail and some thing is pass.
