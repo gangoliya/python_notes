@@ -2,6 +2,6 @@ import camelcase
 
 c = camelcase.CamelCase()
 
-txt = "helloworld"
+txt = "hello world"
 
 print(c.hump(txt))
